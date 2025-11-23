@@ -1,0 +1,22 @@
+{
+  "name": "backendservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "raja": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "postgre": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
